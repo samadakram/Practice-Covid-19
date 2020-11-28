@@ -1,9 +1,14 @@
 import React from 'react';
 
+// Import Components
+import { Cards, Chart, CountryPicker } from './components';
+
 function App() {
   return (
     <div>
-      Hello World
+      <Cards />
+      <CountryPicker />
+      <Chart />
     </div>
   );
 }
