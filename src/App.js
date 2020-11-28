@@ -2,6 +2,7 @@ import React from 'react';
 
 // Import Components
 import { Cards, Chart, CountryPicker } from './components';
+import styles from './App.module.css';
 
 function App() {
   return (
