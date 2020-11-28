@@ -2,7 +2,7 @@ body{
     background-color: rgb(250, 250, 250);
 }
 
-.conatiner{
+.container{
     display: flex;
     align-items: center;
     justify-content: center;
