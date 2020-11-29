@@ -29,12 +29,10 @@ const Chart = () => {
                             borderColor: '#3333ff',
                             fill: true,
                         }, {
-                            labels: dailyData(({date})=> date),
-                            datasets: [{
                                 data: dailyData(({deaths})=> deaths),
                                 label: 'Infected',
                                 borderColor: 'red',
-                                backgroundColor: 'rgba(255, 0, 0, 0.5)'
+                                backgroundColor: 'rgba(255, 0, 0, 0.5)',
                                 fill: true,
                             }],
                     }}
