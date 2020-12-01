@@ -12,7 +12,6 @@ const Chart = ({ data: { confirmed, recovered, deaths }, country }) => {
         const fetchAPI = async () => {
             setDailyData(await fetchDailyData());
         }
-        console.log(dailyData);
         fetchAPI();
 
     }, []);
@@ -57,7 +56,7 @@ const Chart = ({ data: { confirmed, recovered, deaths }, country }) => {
                     }}
                     optons={{
                         legend: { display: false },
-                        title: { display: true, text: `Current state in ${country}` },
+                        title: { display: true, text: `Current state in ${country}`, },
                     }}
                 />
             ) : null
